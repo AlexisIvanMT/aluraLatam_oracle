@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+
+<h1>Programa Para imprimir los numeros del 1 al 100</h1>
+
+<script>
+
+        function saltarLinea() {
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function imprimir(frase) {
+            
+            document.write(frase);
+            saltarLinea();
+            
+        }
+
+        var contador = 0;
+        var cantidad = parseInt(prompt("Ingresa la cantida denumeros a imprimir: "));
+
+        while (contador < cantidad) {
+
+            contador= contador + 2;
+            
+            imprimir(contador);
+            
+        }
+           imprimir("FIN")
+       
+  
+
+ </script>       
